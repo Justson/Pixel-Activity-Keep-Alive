@@ -18,7 +18,7 @@ compile 'com.just.library:pixel:1.0.0'
 </dependency>
 ```
 
-###一句话引入
+###引入
 ```
 PixelActivityUnion
                 .with(App.mContext)
@@ -27,6 +27,11 @@ PixelActivityUnion
                 .setActiviyManager(ActivityManager.getInstance())
                 .start();
 ``` 
+###关闭
+```
+ PixelActivityUnion.quit();
+```
+
 
 ###别忘了配置AndroidManifest
 ```
