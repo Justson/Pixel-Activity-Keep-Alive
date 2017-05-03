@@ -1,6 +1,6 @@
-##<center/>通过一个像素的activity保活
+## <center/>通过一个像素的activity保活
 
-###使用
+### 使用
 * Gradle
 
 ```
@@ -18,7 +18,7 @@ compile 'com.just.library:pixel:1.0.0'
 </dependency>
 ```
 
-###引入
+### 引入
 ```
 PixelActivityUnion
                 .with(App.mContext)
@@ -27,13 +27,13 @@ PixelActivityUnion
                 .setActiviyManager(ActivityManager.getInstance())
                 .start();
 ``` 
-###关闭
+### 关闭
 ```
  PixelActivityUnion.quit();
 ```
 
 
-###别忘了配置AndroidManifest
+### 别忘了配置AndroidManifest
 ```
 <activity
             android:name=".pixelsdk.PointActivity"
@@ -42,6 +42,6 @@ PixelActivityUnion
             ></activity>
 ```
 
-###自定义IActivityManager和Activity
+### 自定义IActivityManager和Activity
 IActivityManager是对Activity进行管理的一个借口, 比如启动和销毁,所以根据自己需要重写Add和Remove.
 Activity比较简单, 最好让用户无法感知整过过程, 所以建议Activity尽量小化和透明化.
