@@ -43,5 +43,5 @@ PixelActivityUnion
 ```
 
 ### 自定义IActivityManager和Activity
-IActivityManager是对Activity进行管理的一个借口, 比如启动和销毁,所以根据自己需要重写Add和Remove.
-Activity比较简单, 最好让用户无法感知整过过程, 所以建议Activity尽量小化和透明化.
+IActivityManager是对Activity进行管理的一个接口, 比如启动和销毁,所以根据自己需要重写Add和Remove.
+Activity 最好让用户无法感知整过过程, 所以建议Activity尽量小化和透明化.
