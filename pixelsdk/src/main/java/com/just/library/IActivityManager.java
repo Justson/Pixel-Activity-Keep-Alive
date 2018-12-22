@@ -1,4 +1,4 @@
-package com.just.library;
+package com.ringleai.ringle.pixel;
 
 import android.app.Activity;
 
